@@ -2,7 +2,7 @@ var justpyComponents = [{"attrs": {"id": "/cbox"}, "id": "/cbox", "events": [], 
 
 jpComponentBuilder.setJustpyComponents(justpyComponents)
 
-app = jpComponentBuilder.mountApp({target: document.getElementById("components"),
+app = jpComponentBuilder.mountApp({target: document.getElementById("components")
 
 						});
 

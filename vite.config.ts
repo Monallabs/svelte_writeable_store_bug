@@ -17,6 +17,10 @@ export default defineConfig({
    css: { postcss
 
 },
+server: {     host: '192.168.0.102', 
+	port: 5173,             
+},
+
 resolve: {
     alias: {
       $lib: path.resolve("./src/lib"),
